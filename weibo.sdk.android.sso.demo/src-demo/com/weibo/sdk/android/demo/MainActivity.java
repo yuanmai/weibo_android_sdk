@@ -90,7 +90,7 @@ public class MainActivity extends Activity {
             Weibo.isWifi = Utility.isWifi(this);
             try {
                 Class sso = Class.forName("com.weibo.sdk.android.api.WeiboAPI");// 如果支持weiboapi的话，显示api功能演示入口按钮
-                apiBtn.setVisibility(View.VISIBLE);
+                //apiBtn.setVisibility(View.VISIBLE);
             } catch (ClassNotFoundException e) {
                 // e.printStackTrace();
                 Log.i(TAG, "com.weibo.sdk.android.api.WeiboAPI not found");
@@ -132,7 +132,7 @@ public class MainActivity extends Activity {
                 try {
                     Class sso = Class
                             .forName("com.weibo.sdk.android.api.WeiboAPI");// 如果支持weiboapi的话，显示api功能演示入口按钮
-                    apiBtn.setVisibility(View.VISIBLE);
+                    //apiBtn.setVisibility(View.VISIBLE);
                 } catch (ClassNotFoundException e) {
                     // e.printStackTrace();
                     Log.i(TAG, "com.weibo.sdk.android.api.WeiboAPI not found");
